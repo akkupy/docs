@@ -1,0 +1,115 @@
+site_name: "Akkupy"
+site_description: "Findings, thoughts, tutorials, work. Pieces of my mind!"
+site_url: "https://akkupy.me/"
+repo_url: "https://github.com/akkupy/website/"
+repo_name: "akkupy/website"
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Credits: credits.md
+  - Posts:
+    - 2022:
+      - posts/testing-fastapi-ormar-alembic-apps.md
+
+  - Showcase:
+    - Showcase Grid: showcase.md
+    - Projects:
+      - showcase/aria2p.md
+
+theme:
+  name: material
+  custom_dir: docs/templates
+  icon:
+    logo: material/currency-sign
+  features:
+  - announce.dismiss
+  - content.action.edit
+  - content.action.view
+  - content.code.annotate
+  - content.code.copy
+  - content.tooltips
+  - navigation.footer
+  - navigation.indexes
+  - navigation.sections
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - navigation.top
+  - search.highlight
+  - search.suggest
+  - toc.follow
+  palette:
+  - media: "(prefers-color-scheme)"
+    toggle:
+      icon: material/brightness-auto
+      name: Switch to light mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: teal
+    accent: purple
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: black
+    accent: lime
+    toggle:
+      icon: material/weather-night
+      name: Switch to system preference
+
+extra_css:
+- css/custom.css
+- css/insiders.css
+
+markdown_extensions:
+- admonition
+- attr_list
+- callouts
+- footnotes
+- md_in_html
+- meta
+- pymdownx.blocks.admonition
+- pymdownx.details
+- pymdownx.emoji:
+    emoji_index: !!python/name:materialx.emoji.twemoji
+    emoji_generator: !!python/name:materialx.emoji.to_svg
+- pymdownx.magiclink
+- pymdownx.snippets:
+    check_paths: true
+    base_path: [docs/snippets, "."]
+- pymdownx.highlight
+- pymdownx.superfences:
+    custom_fences:
+    - name: mermaid
+      class: mermaid
+      format: !!python/name:pymdownx.superfences.fence_code_format
+- pymdownx.tabbed:
+    alternate_style: true
+    slugify: !!python/object/apply:pymdownx.slugs.slugify
+      kwds:
+        case: lower
+- pymdownx.tasklist:
+    custom_checkbox: true
+- toc:
+    permalink: "¤"
+
+plugins:
+- search
+- markdown-exec
+- redirects:
+    redirect_maps:
+      # old posts
+      # 2020/06/02/unify-logging-for-a-gunicorn-uvicorn-app.md: posts/unify-logging-for-a-gunicorn-uvicorn-app.md
+ 
+
+extra:
+  social:
+  - icon: fontawesome/brands/github
+    link: https://github.com/akkupy
+  - icon: fontawesome/brands/mastodon
+    link: https://fosstodon.org/@akkupy
+  - icon: fontawesome/brands/twitter
+    link: https://twitter.com/akkupy
+  - icon: fontawesome/brands/linkedin
+    link: https://www.linkedin.com/in/akkupy
