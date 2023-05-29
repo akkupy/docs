@@ -9,11 +9,15 @@ nav:
   - About: about.md
   - Credits: credits.md
   - Posts:
+    - 2023:
+      - posts/vaultwarden.md
     - 2022:
       - posts/homelab.md
       - posts/tailscale.md
       - posts/nginx_proxy_manager.md
       - posts/self_ssl_cert.md
+      - posts/pi-hole.md
+      
 
   - Showcase:
     - Showcase Grid: showcase.md

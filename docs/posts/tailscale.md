@@ -4,7 +4,7 @@ title: "Tailscale Installation on Raspberrypi 4"
 date: 2022-11-25
 authors:
   - akkupy
-tags: tailscale shell raspberrypi installation
+tags: tailscale shell raspberrypi installation vpn
 image:
   src: /assets/Tailscale.jpg
   add_to_post: yes
