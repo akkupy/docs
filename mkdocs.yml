@@ -33,7 +33,9 @@ nav:
   - Showcase:
     - Showcase Grid: showcase.md
     - Projects:
-      - showcase/aria2p.md
+      - showcase/homelab.md
+      - showcase/zvote.md
+      - showcase/self_signed_ssl_certificate.md
 
 theme:
   name: material
@@ -78,7 +80,6 @@ theme:
 
 extra_css:
 - css/custom.css
-- css/insiders.css
 
 markdown_extensions:
 - admonition

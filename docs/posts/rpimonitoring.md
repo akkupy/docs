@@ -65,12 +65,12 @@ This will start all the containers and make them available on the host machine.
 
 The Grafana dashboard can be accessed by navigating to `http://<host-ip>:3000` in your browser for example `http://192.168.1.100:3000`.
 <br/>The default username and password are both `admin`. You will be prompted to change the password on the first login.
-<br/>Credentials can be changed by editing the [.env](grafana/.env) file.
+<br/>Credentials can be changed by editing the [.env](https://github.com/oijkn/Docker-Raspberry-PI-Monitoring/blob/main/grafana/.env) file.
 
-If you would like to change which targets should be monitored, you can edit the [prometheus.yml](prometheus/prometheus.yml) file.
+If you would like to change which targets should be monitored, you can edit the [prometheus.yml](https://github.com/oijkn/Docker-Raspberry-PI-Monitoring/blob/main/prometheus/prometheus.yml) file.
 <br/>The targets section contains a list of all the targets that should be monitored by Prometheus.
 <br/>The names defined in the `job_name` section are used to identify the targets in Grafana.
-<br/>The `static_configs` section contains the IP addresses of the targets that should be monitored. Actually, they are sourced from the service names defined in the [docker-compose.yml](docker-compose.yml) file.
+<br/>The `static_configs` section contains the IP addresses of the targets that should be monitored. Actually, they are sourced from the service names defined in the [docker-compose.yml](https://github.com/oijkn/Docker-Raspberry-PI-Monitoring/blob/main/docker-compose.yml) file.
 <br/>If you think that the `scrape_interval` value is too aggressive, you can change it to a more suitable value.
 
 In order to check if the stack is running correctly, you can run the following command:

@@ -109,7 +109,7 @@ If you see any problems like “unhealthy” Please restart the container and al
 
 Once deployed, open the container logs, disable `Auto-refresh logs` so you can scroll freely and look for `Assigning random password: XXXXXXXX` to get the Admin password.
 
-![](../images/pi-hole_LogsPassword.png)
+![](../assets/pi-hole_LogsPassword.png)
 
 You can set a new password opening the Console through Portainer and typing `pihole -a -p` and enter the password when requested.
 
@@ -125,13 +125,13 @@ Change the DNS settings *Interface listening behavior* to "Listen on all interfa
 
 Go to `Settings` and select `DNS` on top.
 
-![](../images/pi-hole_SettingsDNS.png)
+![](../assets/pi-hole_SettingsDNS.png)
 
 On the left hand side you can select anyone of the know DNS providers or insert a custom one on the right hand side.
 
 You can also set `Use Conditionnal Forwarding` in order for the Pi-Hole to ask your DHCP server the host name of the local IPs. For this to work, define your local network [CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing) (I've used 192.168.0.0/16 that covers all possible subnets within 192.168.x.x range), then insert the IP of your DHCP server (normally your router) and optionally a local domain name.
 
-![](../images/pi-hole_SettingsDNS_CF.png)
+![](../assets/pi-hole_SettingsDNS_CF.png)
 
 If you're having loop issues with your router, then you might want to disable this option.
 
