@@ -1,6 +1,6 @@
 ---
 template: post.html
-title: "FileBrowser On Raspberry Pi 4 Docker Container"
+title: "FileBrowser On Docker Container"
 date: 2022-11-16
 authors:
   - akkupy

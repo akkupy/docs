@@ -21,6 +21,9 @@ nav:
       - posts/jellyfin.md
       - posts/filebrowser.md
       - posts/heimdall.md
+      - posts/qbittorrent.md
+      - posts/sonarr.md
+      - posts/radarr.md
       
 
   - Showcase:

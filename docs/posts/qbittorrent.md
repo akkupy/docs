@@ -1,21 +1,21 @@
 ---
 template: post.html
-title: "Heimdall On Docker Container"
-date: 2022-11-18
+title: "QBittorrent On Docker"
+date: 2022-11-16
 authors:
   - akkupy
-tags: Heimdall raspberrypi docker homelab rpi4 linktree
+tags: qbittorrent raspberrypi docker homelab rpi4 torrent torrentclient
 image:
-  src: /assets/heimdall.png
+  src: /assets/qb.webp
   add_to_post: yes
   class: crop-excerpt
 ---
 
-# Heimdall
+# Qbittorrent
 
 ## Introduction
 
-[Heimdall](https://heimdall.site/) is a way to organise all those links to your most used web sites and web applications in a simple way. Simplicity is the key to Heimdall. Why not use it as your browser start page? It even has the ability to include a search bar using either Google, Bing or DuckDuckGo.
+The [Qbittorrent](https://www.qbittorrent.org/) project aims to provide an open-source software alternative to µTorrent. qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library.
 
 ## Installation
 
@@ -24,32 +24,35 @@ image:
 1. **Run the following script**
 
 ```
-wget -qO- https://raw.githubusercontent.com/akkupy/Homelab/main/scripts/install_heimdall.sh | bash
+wget -qO- https://raw.githubusercontent.com/akkupy/Homelab/main/scripts/install_qbittorrent.sh | bash
 ```
 
-This will preserve any persistent data under /heimdall of User Directory, you can adapt the path to whatever suits you.
+This will preserve any persistent data under /qbittorrent of User Directory, you can adapt the path to whatever suits you.
+
+**NOTE**: The downloaded files will be stored in /tdownloads folder of user directory.
 
 ### Method 2 (Manual):
 
 * Folder Setup Script
 
-1. First thing we need to do is setup the folder structure. 
+1. First thing we need to do is setup the folder structure. (The downloads folder can be changed according to your needs.)
 
 Run the following code
 ```
-sudo mkdir -p /home/$USER/heimdall
+sudo mkdir -p /home/$USER/qbittorrent
+sudo mkdir -p /home/$USER/tdownloads
 ```
 
 2. Now we need to move into that directory using the following:
 
 ```
-cd /home/$USER/heimdall
+cd /home/$USER/qbittorrent
 ```
-3. Create a folder named config for storing heimdall configurations.
+3. Create a folder named config for storing qbittorrent configurations.
 
 Run the following code
 ```
-sudo mkdir -p /home/$USER/heimdall/config
+sudo mkdir -p /home/$USER/qbittorrent/config
 ```
 4. We now need to open the docker-compose.yml file using nano editor.
 
@@ -60,26 +63,27 @@ Copy and paste the below Docker-compose exmple into the docker-compose.yml file.
 
 NOTE : Change the TimeZone and Conflicting ports according to your needs.
 
-**IMPORTANT NOTE:**Point the path to tvseries and movies according to your needs(External Drive is Recommended).
-
 See example below:
 [Docker-compose](https://docs.docker.com/compose/install/) example:
 
 ```yaml
 version: "2.1"
 services:
-  heimdall:
-    image: lscr.io/linuxserver/heimdall:latest
-    container_name: heimdall
+  qbittorrent:
+    image: lscr.io/linuxserver/qbittorrent:latest
+    container_name: qbittorrent
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/London
+      - TZ=Asia/Kolkata
+      - WEBUI_PORT=8080
     volumes:
-      - /home/$USER/heimdall/config:/config
+      - /path/to/appdata/config:/config
+      - /path/to/downloads:/downloads
     ports:
-      - 4001:80
-      - 4002:443
+      - 8080:8080
+      - 6881:6881
+      - 6881:6881/udp
     restart: unless-stopped
 ```
 4. Once you have done that press “Ctrl + X” then Y to save and “Enter” to exit the nano editor.
@@ -104,6 +108,8 @@ If you see any problems like “unhealthy” Please restart the container and al
 
 ## Post Installation
 
-Access the WebUI using https://raspberry_ip:4001.
+The webui is at your-ip:8080 and the default username/password is admin/adminadmin.
+
+Change username/password via the webui in the webui section of settings.
 
 (Optional): Configure Reverse Proxy using the documentation [here](https://github.com/akkupy/Homelab/blob/main/docs/nginx_proxy_manager.md#first-proxy-host-setup)

@@ -120,9 +120,9 @@ List of all Documents used within this project.
 |[jellyfin.md](jellyfin.md)|Install and Setup Jellyfin, A Software to provide media from a dedicated server to end-user devices via multiple apps|
 |[filebrowser.md](filebrowser.md)|Install and Setup Filebrowser, A file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit your files|
 |[heimdall.md](heimdall.md)|Install and Setup Heimdall, Organise all those links to your most used web sites and web applications in a simple way.|
-|[qbittorrent.md](./docs/qbittorrent.md)|Install and Setup Qbittorrent, An open-source software alternative to µTorrent.|
-|[sonarr.md](./docs/sonarr.md)|Install and Setup sonarr, a PVR for usenet and bittorrent users.|
-|[radarr.md](./docs/radarr.md)|Install and Setup radarr, A fork of Sonarr to work with movies à la Couchpotato.|
+|[qbittorrent.md](qbittorrent.md)|Install and Setup Qbittorrent, An open-source software alternative to µTorrent.|
+|[sonarr.md](sonarr.md)|Install and Setup sonarr, a PVR for usenet and bittorrent users.|
+|[radarr.md](radarr.md)|Install and Setup radarr, A fork of Sonarr to work with movies à la Couchpotato.|
 |[jackett.md](./docs/jackett.md)|Install and Setup jackett, translates queries from apps (Sonarr, SickRage, CouchPotato, Mylar, etc) into tracker-site-specific http queries, parses the html response, then sends results back to the requesting software.|
 |[nextcloud.md](./docs/nextcloud.md)|Install and Setup nextcloud, A safe home for all your data. Access & share your files, calendars, contacts, mail & more from any device, on your terms.|
 |[Z-Vote](https://github.com/akkupy/Z-Vote/tree/production)|Install and Setup Z-Vote, A Blockchain based Voting System|
