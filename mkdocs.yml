@@ -39,9 +39,9 @@ nav:
 
 theme:
   name: material
+  favicon: https://cdn-icons-png.flaticon.com/128/2721/2721568.png
   custom_dir: docs/templates
-  icon:
-    logo: material/currency-sign
+  logo: https://cdn-icons-png.flaticon.com/512/2861/2861427.png
   features:
   - announce.dismiss
   - content.action.edit
@@ -123,6 +123,7 @@ plugins:
  
 
 extra:
+  generator: false
   social:
   - icon: fontawesome/brands/github
     link: https://github.com/akkupy
@@ -132,3 +133,9 @@ extra:
     link: https://twitter.com/akkupy
   - icon: fontawesome/brands/linkedin
     link: https://www.linkedin.com/in/akkupy
+  - icon: fontawesome/brands/discord
+    link: https://discord.com/users/518054587114979338
+  - icon: fontawesome/brands/docker
+    link: https://hub.docker.com/u/akkupy
+
+copyright: Copyright © 2023 - 2024 Akkupy
