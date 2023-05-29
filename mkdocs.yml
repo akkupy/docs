@@ -10,7 +10,10 @@ nav:
   - Credits: credits.md
   - Posts:
     - 2022:
-      - posts/testing-fastapi-ormar-alembic-apps.md
+      - posts/homelab.md
+      - posts/tailscale.md
+      - posts/nginx_proxy_manager.md
+      - posts/self_ssl_cert.md
 
   - Showcase:
     - Showcase Grid: showcase.md

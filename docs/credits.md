@@ -99,6 +99,4 @@ backers, and the rest!
 [![yaml](https://www.vectorlogo.zone/logos/yaml/yaml-ar21.svg)](http://yaml.org/?utm_source=vectorlogozone&utm_medium=referrer)
 [![yarn](https://www.vectorlogo.zone/logos/yarnpkg/yarnpkg-ar21.svg)](https://yarnpkg.com/en/?utm_source=vectorlogozone&utm_medium=referrer)
 
-*This blog is graciously hosted by [GitHub](https://github.com),
-and is built with [MkDocs](https://mkdocs.org)
-and the [Material for Mkdocs](https://squidfunk.github.io/mkdocs-material/) theme.*
+
