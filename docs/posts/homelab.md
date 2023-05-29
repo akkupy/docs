@@ -1,7 +1,7 @@
 ---
 template: post.html
 title: "HomeLab On a Raspberry Pi 4"
-date: 2023-01-17
+date: 2022-10-17
 authors:
   - akkupy
 tags: python shell raspberrypi docker homelab homelabonraspberrypi rpi4 dockercontainers
@@ -117,9 +117,9 @@ List of all Documents used within this project.
 |[pi-hole.md](pi-hole.md)|Install and Setup Pi-Hole for Network-Wide Ad Block|
 |[vaultwarden.md](vaultwarden.md)|Install and Setup Vaultwarden, A privately hosted password manager|
 |[rpimonitoring.md](rpimonitoring.md)|Install and Setup Raspberry Pi & Docker Monitoring, A user-friendly way to monitor the performance of your Raspberry Pi|
-|[jellyfin.md](./docs/jellyfin.md)|Install and Setup Jellyfin, A Software to provide media from a dedicated server to end-user devices via multiple apps|
-|[filebrowser.md](./docs/filebrowser.md)|Install and Setup Filebrowser, A file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit your files|
-|[heimdall.md](./docs/heimdall.md)|Install and Setup Heimdall, Organise all those links to your most used web sites and web applications in a simple way.|
+|[jellyfin.md](jellyfin.md)|Install and Setup Jellyfin, A Software to provide media from a dedicated server to end-user devices via multiple apps|
+|[filebrowser.md](filebrowser.md)|Install and Setup Filebrowser, A file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit your files|
+|[heimdall.md](heimdall.md)|Install and Setup Heimdall, Organise all those links to your most used web sites and web applications in a simple way.|
 |[qbittorrent.md](./docs/qbittorrent.md)|Install and Setup Qbittorrent, An open-source software alternative to µTorrent.|
 |[sonarr.md](./docs/sonarr.md)|Install and Setup sonarr, a PVR for usenet and bittorrent users.|
 |[radarr.md](./docs/radarr.md)|Install and Setup radarr, A fork of Sonarr to work with movies à la Couchpotato.|

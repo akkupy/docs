@@ -18,6 +18,9 @@ nav:
       - posts/nginx_proxy_manager.md
       - posts/self_ssl_cert.md
       - posts/pi-hole.md
+      - posts/jellyfin.md
+      - posts/filebrowser.md
+      - posts/heimdall.md
       
 
   - Showcase:

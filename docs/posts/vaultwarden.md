@@ -1,7 +1,7 @@
 ---
 template: post.html
 title: "Vaultwarden(Bitwarden) On a Docker Container."
-date: 2022-11-08
+date: 2023-02-09
 authors:
   - akkupy
 tags: raspberrypi docker vaultwarden password passwordmanager
