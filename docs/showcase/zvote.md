@@ -155,7 +155,7 @@ sudo nano env
 ```
 <br><br>
 
-4. Fill the environment variables for env file ([see above](/posts/zvoteprod/#create-and-fill-the-env-file-with-the-obtained-apis)).
+4. Fill the environment variables for env file ([see above](/showcase/zvote/#create-and-fill-the-env-file-with-the-obtained-apis)).
 
 <br><br>
 
@@ -166,7 +166,7 @@ sudo nano envdb
 ```
 <br><br>
 
-6. Fill the environment variables for envdb file ([see above](/posts/zvoteprod/#create-envdb-file-in-the-same-directory-of-env-file-and-fill-the-below-values)).
+6. Fill the environment variables for envdb file ([see above](/showcase/zvote/#create-envdb-file-in-the-same-directory-of-env-file-and-fill-the-below-values)).
 
 <br><br>
 
@@ -271,9 +271,9 @@ $ cd Z-Vote
 # Run Docker Build
 $ docker build -t <name>:<tag> .
 ```
-* Create env file([refer here](/posts/zvoteprod/#environment-variables))
+* Create env file([refer here](/showcase/zvote/#environment-variables))
 
-* Run and Configure the container([refer here](/posts/zvoteprod/#z-vote-production-server-on-docker))
+* Run and Configure the container([refer here](/showcase/zvote/#z-vote-production-server-on-docker))
 
 
 
