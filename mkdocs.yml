@@ -11,6 +11,7 @@ nav:
   - Posts:
     - 2023:
       - posts/vaultwarden.md
+      - posts/rpimonitoring.md
     - 2022:
       - posts/homelab.md
       - posts/tailscale.md

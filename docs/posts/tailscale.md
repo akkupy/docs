@@ -1,6 +1,6 @@
 ---
 template: post.html
-title: "Tailscale Installation on Raspberrypi 4"
+title: "Tailscale on Raspberrypi 4"
 date: 2022-11-25
 authors:
   - akkupy

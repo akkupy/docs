@@ -1,6 +1,6 @@
 ---
 template: post.html
-title: "Complete Guide to Setup a HomeLab with a Raspberry Pi 4"
+title: "HomeLab On a Raspberry Pi 4"
 date: 2023-01-17
 authors:
   - akkupy
@@ -116,7 +116,7 @@ List of all Documents used within this project.
 |[Self Signed SSL Certificate](self_ssl_cert.md)|Follow these steps for SSL Certificate Authority for Local Https Development(can be used with NPM)|
 |[pi-hole.md](pi-hole.md)|Install and Setup Pi-Hole for Network-Wide Ad Block|
 |[vaultwarden.md](vaultwarden.md)|Install and Setup Vaultwarden, A privately hosted password manager|
-|[rpimonitoring.md](./docs/rpimonitoring.md)|Install and Setup Raspberry Pi & Docker Monitoring, A user-friendly way to monitor the performance of your Raspberry Pi|
+|[rpimonitoring.md](rpimonitoring.md)|Install and Setup Raspberry Pi & Docker Monitoring, A user-friendly way to monitor the performance of your Raspberry Pi|
 |[jellyfin.md](./docs/jellyfin.md)|Install and Setup Jellyfin, A Software to provide media from a dedicated server to end-user devices via multiple apps|
 |[filebrowser.md](./docs/filebrowser.md)|Install and Setup Filebrowser, A file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit your files|
 |[heimdall.md](./docs/heimdall.md)|Install and Setup Heimdall, Organise all those links to your most used web sites and web applications in a simple way.|

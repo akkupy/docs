@@ -1,6 +1,6 @@
 ---
 template: post.html
-title: "Vaultwarden(Bitwarden) Installation On a Docker Container."
+title: "Vaultwarden(Bitwarden) On a Docker Container."
 date: 2022-11-08
 authors:
   - akkupy

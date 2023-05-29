@@ -1,6 +1,6 @@
 ---
 template: post.html
-title: "Nginx Proxy Manager Installation with Docker"
+title: "Nginx Proxy Manager On Docker"
 date: 2022-12-09
 authors:
   - akkupy

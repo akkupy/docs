@@ -1,6 +1,6 @@
 ---
 template: post.html
-title: "Installation of Pi-Hole DNS Ad Blocker"
+title: "Pi-Hole On Docker"
 date: 2022-11-08
 authors:
   - akkupy
