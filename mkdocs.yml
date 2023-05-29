@@ -10,6 +10,8 @@ nav:
   - Credits: credits.md
   - Posts:
     - 2023:
+      - posts/zvoteprod.md
+      - posts/zvote.md
       - posts/vaultwarden.md
       - posts/rpimonitoring.md
       - posts/nextcloud.md

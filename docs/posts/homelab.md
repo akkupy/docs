@@ -123,18 +123,18 @@ List of all Documents used within this project.
 |[qbittorrent.md](qbittorrent.md)|Install and Setup Qbittorrent, An open-source software alternative to µTorrent.|
 |[sonarr.md](sonarr.md)|Install and Setup sonarr, a PVR for usenet and bittorrent users.|
 |[radarr.md](radarr.md)|Install and Setup radarr, A fork of Sonarr to work with movies à la Couchpotato.|
-|[jackett.md](./docs/jackett.md)|Install and Setup jackett, translates queries from apps (Sonarr, SickRage, CouchPotato, Mylar, etc) into tracker-site-specific http queries, parses the html response, then sends results back to the requesting software.|
-|[nextcloud.md](./docs/nextcloud.md)|Install and Setup nextcloud, A safe home for all your data. Access & share your files, calendars, contacts, mail & more from any device, on your terms.|
-|[Z-Vote](https://github.com/akkupy/Z-Vote/tree/production)|Install and Setup Z-Vote, A Blockchain based Voting System|
+|[jackett.md](jackett.md)|Install and Setup jackett, translates queries from apps (Sonarr, SickRage, CouchPotato, Mylar, etc) into tracker-site-specific http queries, parses the html response, then sends results back to the requesting software.|
+|[nextcloud.md](nextcloud.md)|Install and Setup nextcloud, A safe home for all your data. Access & share your files, calendars, contacts, mail & more from any device, on your terms.|
+|[Z-Vote](zvoteprod.md)|Install and Setup Z-Vote, A Blockchain based Voting System|
 
 
 
 
-# Contact Me
+## Contact Me
  [![telegram](https://img.shields.io/badge/Akku-000000?style=for-the-badge&logo=telegram)](https://t.me/akkupy)
 
 
-# License
+## License
 [![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
 
 Homelab is Free Software: You can use, study share and improve it at your
