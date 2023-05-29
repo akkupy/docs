@@ -12,8 +12,6 @@ image:
 ---
 
 
-# Self Signed SSL Cerificate
-
 ## Private CA and self signed certs that work with Chrome
 
 :warning: :poop: :warning: This method is for testing and development only. The vast majority of users should not use this method, as it requires loading a cert on each of your devices, which is both error-prone and requires future maintenance. Instead, focus your energy on obtaining real certs via [Let's Encrypt](https://letsencrypt.org/getting-started/). This can even work if your vaultwarden instance is not on the public Internet ([[example|Running-a-private-vaultwarden-instance-with-Let's-Encrypt-certs]]).

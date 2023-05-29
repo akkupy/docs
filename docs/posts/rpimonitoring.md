@@ -1,6 +1,6 @@
 ---
 template: post.html
-title: "RaspberryPi Monitor On Docker"
+title: "RaspberryPi and Docker Monitoring"
 date: 2023-01-08
 authors:
   - akkupy
@@ -11,7 +11,6 @@ image:
   class: crop-excerpt
 ---
 
-# Raspberry Pi & Docker Monitoring
 
 
 ## Introduction

@@ -12,6 +12,7 @@ nav:
     - 2023:
       - posts/vaultwarden.md
       - posts/rpimonitoring.md
+      - posts/nextcloud.md
     - 2022:
       - posts/homelab.md
       - posts/tailscale.md
@@ -24,6 +25,7 @@ nav:
       - posts/qbittorrent.md
       - posts/sonarr.md
       - posts/radarr.md
+      - posts/jackett.md
       
 
   - Showcase:

@@ -1,19 +1,20 @@
 ---
 template: post.html
-title: "QBittorrent On Docker"
-date: 2022-11-16
+title: "Jackett On Docker Container"
+date: 2022-11-20
 authors:
   - akkupy
-tags: qbittorrent raspberrypi docker homelab rpi4 torrent torrentclient
+tags: jackett raspberrypi docker homelab rpi4 proxyserver
 image:
-  src: /assets/qb.webp
+  src: /assets/jackett.png
   add_to_post: yes
   class: crop-excerpt
 ---
 
+
 ## Introduction
 
-The [Qbittorrent](https://www.qbittorrent.org/) project aims to provide an open-source software alternative to µTorrent. qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library.
+[Jackett](https://github.com/Jackett/Jackett) works as a proxy server: it translates queries from apps (Sonarr, SickRage, CouchPotato, Mylar, etc) into tracker-site-specific http queries, parses the html response, then sends results back to the requesting software. This allows for getting recent uploads (like RSS) and performing searches. Jackett is a single repository of maintained indexer scraping & translation logic - removing the burden from other apps.
 
 ## Installation
 
@@ -22,35 +23,33 @@ The [Qbittorrent](https://www.qbittorrent.org/) project aims to provide an open-
 1. **Run the following script**
 
 ```
-wget -qO- https://raw.githubusercontent.com/akkupy/Homelab/main/scripts/install_qbittorrent.sh | bash
+wget -qO- https://raw.githubusercontent.com/akkupy/Homelab/main/scripts/install_jackett.sh | bash
 ```
 
-This will preserve any persistent data under /qbittorrent of User Directory, you can adapt the path to whatever suits you.
-
-**NOTE**: The downloaded files will be stored in /tdownloads folder of user directory.
+This will preserve any persistent data under /jackett of User Directory, you can adapt the path to whatever suits you.
 
 ### Method 2 (Manual):
 
 * Folder Setup Script
 
-1. First thing we need to do is setup the folder structure. (The downloads folder can be changed according to your needs.)
+1. First thing we need to do is setup the folder structure.Create downloads folder only if not already exists.
 
 Run the following code
 ```
-sudo mkdir -p /home/$USER/qbittorrent
+sudo mkdir -p /home/$USER/jackett
 sudo mkdir -p /home/$USER/tdownloads
 ```
 
 2. Now we need to move into that directory using the following:
 
 ```
-cd /home/$USER/qbittorrent
+cd /home/$USER/jackett
 ```
-3. Create a folder named config for storing qbittorrent configurations.
+3. Create a folder named config for storing jackett configurations.
 
 Run the following code
 ```
-sudo mkdir -p /home/$USER/qbittorrent/config
+sudo mkdir -p /home/$USER/jackett/config
 ```
 4. We now need to open the docker-compose.yml file using nano editor.
 
@@ -67,21 +66,19 @@ See example below:
 ```yaml
 version: "2.1"
 services:
-  qbittorrent:
-    image: lscr.io/linuxserver/qbittorrent:latest
-    container_name: qbittorrent
+  jackett:
+    image: lscr.io/linuxserver/jackett:latest
+    container_name: jackett
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=Asia/Kolkata
-      - WEBUI_PORT=8080
+      - AUTO_UPDATE=true #optional
     volumes:
-      - /path/to/appdata/config:/config
-      - /path/to/downloads:/downloads
+      - /home/$USER/jackett/config:/config
+      - /home/$USER/tdownloads:/downloads
     ports:
-      - 8080:8080
-      - 6881:6881
-      - 6881:6881/udp
+      - 9117:9117
     restart: unless-stopped
 ```
 4. Once you have done that press “Ctrl + X” then Y to save and “Enter” to exit the nano editor.
@@ -106,8 +103,6 @@ If you see any problems like “unhealthy” Please restart the container and al
 
 ## Post Installation
 
-The webui is at your-ip:8080 and the default username/password is admin/adminadmin.
-
-Change username/password via the webui in the webui section of settings.
+The webui is at your-ip:9117 .
 
 (Optional): Configure Reverse Proxy using the documentation [here](https://github.com/akkupy/Homelab/blob/main/docs/nginx_proxy_manager.md#first-proxy-host-setup)

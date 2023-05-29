@@ -11,8 +11,6 @@ image:
   class: crop-excerpt
 ---
 
-# Jellyfin
-
 
 ## Introduction
 

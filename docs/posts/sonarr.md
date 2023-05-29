@@ -11,7 +11,6 @@ image:
   class: crop-excerpt
 ---
 
-# Sonarr
 
 
 ## Introduction

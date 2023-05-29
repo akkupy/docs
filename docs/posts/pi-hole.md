@@ -12,8 +12,6 @@ image:
 ---
 
 
-# Install and setup instructions for Pi-Hole DNS Ad Blocker
-
 ## Introduction
 
 [Pi-Hole](https://pi-hole.net/) is a network-wide **Ad Blocking** based on [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) filter. It can also act as a [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol) server.

@@ -11,8 +11,6 @@ image:
   class: crop-excerpt
 ---
 
-# Vaultwarden
-
 
 ## Introduction
 

@@ -11,8 +11,6 @@ image:
   class: crop-excerpt
 ---
 
-# Install and setup instructions for Nginx Proxy Manager (NPM)
-
 ## Introduction
 
 Nginx Proxy Manager (NPM) is an easy way to accomplish reverse proxying hosts with SSL termination and as the author puts it "It has to be so easy that a monkey could do it".
