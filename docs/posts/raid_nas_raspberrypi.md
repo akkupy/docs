@@ -1,4 +1,17 @@
-### ※ Raspberry Pi RAID NAS Server Setup ※ ###
+---
+template: post.html
+title: "Raspberry Pi RAID NAS Server Setup"
+date: 2023-08-01
+authors:
+  - akkupy
+tags: raspberrypi nas raid raidsetup
+image:
+  src: /assets/nas.jpg
+  add_to_post: yes
+  class: crop-excerpt
+---
+
+
 
 __Hardware:__
 - Raspberry Pi 4 (4GB RAM)
