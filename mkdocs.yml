@@ -40,9 +40,9 @@ nav:
 
 theme:
   name: material
-  favicon: https://cdn-icons-png.flaticon.com/128/2721/2721568.png
+  favicon: https://raw.githubusercontent.com/akkupy/akkupy/main/assets/favicon.ico
   custom_dir: docs/templates
-  logo: https://cdn-icons-png.flaticon.com/512/2861/2861427.png
+  logo: https://raw.githubusercontent.com/akkupy/akkupy/main/assets/favicon.ico
   features:
   - announce.dismiss
   - content.action.edit
