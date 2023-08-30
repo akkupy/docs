@@ -18,6 +18,9 @@ image:
 * It converts ballots into transactions and securely mines blocks out of them.
 * The advantage of a blockchain based voting system include the ability to vote from any place and prevent any tampering of votes.
 
+## Report
+
+[Download :fontawesome-solid-download:](../assets/content/zvote_report.pdf){ .md-button }
 
 ## Technology stack used:
 1. Python 3.11.x
