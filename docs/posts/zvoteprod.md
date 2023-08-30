@@ -132,7 +132,7 @@ MYSQL_ROOT_PASSWORD=sreeku
 ## Z-vote Production Server On Docker
 <br>
 
-### Install Docker and Portainer if not already done.([refer here](/posts/homelab/#installation-of-docker-and-portainer))
+### Install Docker and Portainer if not already done.([refer here](homelab.md#installation-of-docker-and-portainer))
 
 <br>
 
@@ -158,7 +158,7 @@ sudo nano env
 ```
 <br><br>
 
-4. Fill the environment variables for env file ([see above](/posts/zvoteprod/#create-and-fill-the-env-file-with-the-obtained-apis)).
+4. Fill the environment variables for env file ([see above](#create-and-fill-the-env-file-with-the-obtained-apis)).
 
 <br><br>
 
@@ -169,7 +169,7 @@ sudo nano envdb
 ```
 <br><br>
 
-6. Fill the environment variables for envdb file ([see above](/posts/zvoteprod/#create-envdb-file-in-the-same-directory-of-env-file-and-fill-the-below-values)).
+6. Fill the environment variables for envdb file ([see above](#create-envdb-file-in-the-same-directory-of-env-file-and-fill-the-below-values)).
 
 <br><br>
 
@@ -198,7 +198,7 @@ docker pull mysql:latest
 <br>
 
 * Rename the .key as vote.key and .crt as vote.crt
-* A self generated SSL certificate(which can be generated [here](/posts/self_ssl_cert/))
+* A self generated SSL certificate(which can be generated [here](self_ssl_cert.md))
 * Use Self Generated SSL Certificate For Local and Private VPN Networks.
 
 <br>
@@ -274,9 +274,9 @@ $ cd Z-Vote
 # Run Docker Build
 $ docker build -t <name>:<tag> .
 ```
-* Create env file([refer here](/posts/zvoteprod/#environment-variables))
+* Create env file([refer here](#environment-variables))
 
-* Run and Configure the container([refer here](/posts/zvoteprod/#z-vote-production-server-on-docker))
+* Run and Configure the container([refer here](#z-vote-production-server-on-docker))
 
 
 

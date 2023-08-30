@@ -111,21 +111,21 @@ List of all Documents used within this project.
 
 | File Name | Description |
 | --------- | ----------- |
-|[tailscale.md](/posts/tailscale/)|Install and setup instructions for Tailscale(A VPN Service)|
-|[nginx_proxy_manager.md](/posts/nginx_proxy_manager/)|Install and setup instructions for Nginx Proxy Manager (NPM)|
-|[Self Signed SSL Certificate](/posts/self_ssl_cert/)|Follow these steps for SSL Certificate Authority for Local Https Development(can be used with NPM)|
-|[pi-hole.md](/posts/pi-hole/)|Install and Setup Pi-Hole for Network-Wide Ad Block|
-|[vaultwarden.md](/posts/vaultwarden/)|Install and Setup Vaultwarden, A privately hosted password manager|
-|[rpimonitoring.md](/posts/rpimonitoring/)|Install and Setup Raspberry Pi & Docker Monitoring, A user-friendly way to monitor the performance of your Raspberry Pi|
-|[jellyfin.md](/posts/jellyfin/)|Install and Setup Jellyfin, A Software to provide media from a dedicated server to end-user devices via multiple apps|
-|[filebrowser.md](/posts/filebrowser/)|Install and Setup Filebrowser, A file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit your files|
-|[heimdall.md](/posts/heimdall/)|Install and Setup Heimdall, Organise all those links to your most used web sites and web applications in a simple way.|
-|[qbittorrent.md](/posts/qbittorrent/)|Install and Setup Qbittorrent, An open-source software alternative to µTorrent.|
-|[sonarr.md](/posts/sonarr/)|Install and Setup sonarr, a PVR for usenet and bittorrent users.|
-|[radarr.md](/posts/radarr/)|Install and Setup radarr, A fork of Sonarr to work with movies à la Couchpotato.|
-|[jackett.md](/posts/jackett/)|Install and Setup jackett, translates queries from apps (Sonarr, SickRage, CouchPotato, Mylar, etc) into tracker-site-specific http queries, parses the html response, then sends results back to the requesting software.|
-|[nextcloud.md](/posts/nextcloud/)|Install and Setup nextcloud, A safe home for all your data. Access & share your files, calendars, contacts, mail & more from any device, on your terms.|
-|[Z-Vote](/showcase/zvote/)|Install and Setup Z-Vote, A Blockchain based Voting System|
+|[tailscale.md](../posts/tailscale.md)|Install and setup instructions for Tailscale(A VPN Service)|
+|[nginx_proxy_manager.md](../posts/nginx_proxy_manager.md)|Install and setup instructions for Nginx Proxy Manager (NPM)|
+|[Self Signed SSL Certificate](../posts/self_ssl_cert.md)|Follow these steps for SSL Certificate Authority for Local Https Development(can be used with NPM)|
+|[pi-hole.md](../posts/pi-hole.md)|Install and Setup Pi-Hole for Network-Wide Ad Block|
+|[vaultwarden.md](../posts/vaultwarden.md)|Install and Setup Vaultwarden, A privately hosted password manager|
+|[rpimonitoring.md](../posts/rpimonitoring.md)|Install and Setup Raspberry Pi & Docker Monitoring, A user-friendly way to monitor the performance of your Raspberry Pi|
+|[jellyfin.md](../posts/jellyfin.md)|Install and Setup Jellyfin, A Software to provide media from a dedicated server to end-user devices via multiple apps|
+|[filebrowser.md](../posts/filebrowser.md)|Install and Setup Filebrowser, A file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit your files|
+|[heimdall.md](../posts/heimdall.md)|Install and Setup Heimdall, Organise all those links to your most used web sites and web applications in a simple way.|
+|[qbittorrent.md](../posts/qbittorrent.md)|Install and Setup Qbittorrent, An open-source software alternative to µTorrent.|
+|[sonarr.md](../posts/sonarr.md)|Install and Setup sonarr, a PVR for usenet and bittorrent users.|
+|[radarr.md](../posts/radarr.md)|Install and Setup radarr, A fork of Sonarr to work with movies à la Couchpotato.|
+|[jackett.md](../posts/jackett.md)|Install and Setup jackett, translates queries from apps (Sonarr, SickRage, CouchPotato, Mylar, etc) into tracker-site-specific http queries, parses the html response, then sends results back to the requesting software.|
+|[nextcloud.md](../posts/nextcloud.md)|Install and Setup nextcloud, A safe home for all your data. Access & share your files, calendars, contacts, mail & more from any device, on your terms.|
+|[Z-Vote](zvote.md)|Install and Setup Z-Vote, A Blockchain based Voting System|
 
 
 

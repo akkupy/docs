@@ -86,9 +86,9 @@ docker logs -f <container-name>
 ## Add Data Sources and Dashboards
 
 Since Grafana v5 has introduced the concept of provisioning, it is possible to automatically add data sources and dashboards to Grafana.
-<br/>This is done by placing the `datasources` and `dashboards` directories in the [provisioning](grafana/provisioning) folder. The files in these directories are automatically loaded by Grafana on startup.
+<br/>This is done by placing the `datasources` and `dashboards` directories in the grafana/provisioning folder. The files in these directories are automatically loaded by Grafana on startup.
 
-If you like to add a new dashboard, simply place the JSON file in the [dashboards](grafana/provisioning/dashboards) directory, and it will be automatically loaded next time Grafana is started.
+If you like to add a new dashboard, simply place the JSON file in the grafana/provisioning/dashboards directory, and it will be automatically loaded next time Grafana is started.
 
 ## Install Dashboard from Grafana.com (Optional)
 
