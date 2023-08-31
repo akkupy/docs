@@ -4,7 +4,7 @@ title: "How I Customized My Pop!_OS"
 date: 2023-08-30
 authors:
   - akkupy
-tags: pop!_os linux os customization linuxdistro opensource ubuntu Linux linux for beginners
+tags: pop!_os linux os customization linuxdistro opensource ubuntu Linux linux for beginners popos pop os
 image:
   src: /assets/pop_home.png
   add_to_post: yes
