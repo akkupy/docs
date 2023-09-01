@@ -53,6 +53,35 @@ This is my list of apps.
 
 ![Gnome Shell Integration Extensions](../assets/installed_extensions.png)
 
+ * [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
+
+      A dock for the Gnome Shell. This extension moves the dash out of the overview transforming it in a dock for an easier launching of applications and a faster switching between windows and desktops. Side and bottom placement options are available.
+
+ * [Hide Top Bar](https://extensions.gnome.org/extension/545/hide-top-bar/)
+
+      Hides the top bar, except in overview. However, there is an option to show the panel whenever the mouse pointer approaches the edge of the screen. And if "intellihide" is enabled, the panel only hides when a window takes the space.
+
+ * [Transparent Top Panel](https://extensions.gnome.org/extension/2878/transparent-top-panel/)
+
+      Totally transparent top panel in the Overview.
+      Also adds drop shadows to text and icons for those using GS 3.38.
+
+ * [Tweaks & Extensions in System Menu](https://extensions.gnome.org/extension/1653/tweaks-in-system-menu/)
+  
+      Put Gnome Tweaks and Extensions (on Shell 40 and later) in the System menu.
+
+ * [Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/)
+
+      Shows a list of sound output and input devices (similar to gnome sound settings) in the status menu below the volume slider. Various active ports like HDMI , Speakers etc. of the same device are also displayed for selection. V20+ needs python as dependency. If you want to continue with the old method without Python, use options to switch off New Port identification. But it works with only English.
+
+ * [Toggle Night Light](https://extensions.gnome.org/extension/3933/toggle-night-light/)
+
+      This extension lets you toggle night-light from the top-bar by clicking it.
+
+ * [Vitals](https://extensions.gnome.org/extension/1460/vitals/)
+
+      A glimpse into your computer's temperature, voltage, fan speed, memory usage, processor load, system resources, network speed and storage stats. This is a one stop shop to monitor all of your vital sensors. Uses asynchronous polling to provide a smooth user experience.
+
 ## Customize the Terminal
 
 ![Terminal](../assets/terminal.png)
