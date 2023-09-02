@@ -10,6 +10,7 @@ nav:
   - Credits: credits.md
   - Posts:
     - 2023:
+      - posts/unbound.md
       - posts/pop_os.md
       - posts/raid_nas_raspberrypi.md
       - posts/zvoteprod.md
@@ -42,6 +43,20 @@ nav:
 theme:
   name: material
   favicon: https://raw.githubusercontent.com/akkupy/akkupy/main/assets/favicon.ico
+  icon:
+    admonition:
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
+      info: fontawesome/solid/circle-info
+      tip: fontawesome/solid/bullhorn
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
   custom_dir: docs/templates
   logo: https://raw.githubusercontent.com/akkupy/akkupy/main/assets/favicon.ico
   features:
@@ -93,6 +108,7 @@ markdown_extensions:
 - meta
 - pymdownx.blocks.admonition
 - pymdownx.details
+- pymdownx.superfences
 - pymdownx.emoji:
     emoji_index: !!python/name:materialx.emoji.twemoji
     emoji_generator: !!python/name:materialx.emoji.to_svg
