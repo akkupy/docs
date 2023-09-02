@@ -158,11 +158,11 @@ Finally, configure Pi-hole to use your recursive DNS server by specifying ```127
 
 Debian Bullseye+ releases auto-install a package called ```openresolv``` with a certain configuration that will cause unexpected behaviour for pihole and unbound.
 
- The effect is that the ```unbound-resolvconf.service``` instructs ```resolvconf``` to write ```unbound```'s own DNS service at ```nameserver 127.0.0.1``` , but without the 5335 port, into the file ```/etc/resolv.conf```.
+The effect is that the ```unbound-resolvconf.service``` instructs ```resolvconf``` to write ```unbound```'s own DNS service at ```nameserver 127.0.0.1``` , but without the 5335 port, into the file ```/etc/resolv.conf```.
  
-  That ```/etc/resolv.conf``` file is used by local services/processes to determine DNS servers configured. You need to edit the configuration file and disable the service to work-around the misconfiguration.
+That ```/etc/resolv.conf``` file is used by local services/processes to determine DNS servers configured. You need to edit the configuration file and disable the service to work-around the misconfiguration.
 
-  #### Step 1 - Disable the Service
+#### Step 1 - Disable the Service
 
   To check if this service is enabled for your distribution, run below one. It will show either ```active``` or ```inactive``` or it might not even be installed resulting in a ```could not be found``` message:
 
@@ -176,7 +176,7 @@ Debian Bullseye+ releases auto-install a package called ```openresolv``` with a 
   sudo systemctl disable --now unbound-resolvconf.service
   ```
 
-  #### Step 2 - Disable the file resolvconf_resolvers.conf
+#### Step 2 - Disable the file resolvconf_resolvers.conf
 
   Disable the file resolvconf_resolvers.conf from being generated when resolvconf is invoked elsewhere.
 
