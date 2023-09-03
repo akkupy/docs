@@ -1,4 +1,4 @@
-# Akkupy's Website
+# Akkupy's Blog
 
 [My Personal Blog](https://blog.akkupy.me) , built with [MkDocs](https://mkdocs.org).
 
