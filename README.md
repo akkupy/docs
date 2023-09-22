@@ -1,4 +1,4 @@
-# My Documentation Website
+# My Documentation Website.
 
 [Documentations Page](https://docs.akkupy.me) , built with [MkDocs](https://mkdocs.org).
 
