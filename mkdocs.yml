@@ -42,7 +42,7 @@ nav:
 
 theme:
   name: material
-  favicon: https://raw.githubusercontent.com/akkupy/akkupy/main/assets/favicon.ico
+  favicon: https://raw.githubusercontent.com/akkupy/akkupy/main/assets/favicon.png
   icon:
     admonition:
       note: fontawesome/solid/note-sticky
@@ -58,7 +58,7 @@ theme:
       example: fontawesome/solid/flask
       quote: fontawesome/solid/quote-left
   custom_dir: docs/templates
-  logo: https://raw.githubusercontent.com/akkupy/akkupy/main/assets/favicon.ico
+  logo: https://raw.githubusercontent.com/akkupy/akkupy/main/assets/favicon.png
   features:
   - announce.dismiss
   - content.action.edit
