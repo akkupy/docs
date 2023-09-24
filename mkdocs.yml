@@ -58,7 +58,7 @@ theme:
       example: fontawesome/solid/flask
       quote: fontawesome/solid/quote-left
   custom_dir: docs/templates
-  logo: https://raw.githubusercontent.com/akkupy/akkupy/main/assets/favicon.png
+  logo: https://raw.githubusercontent.com/akkupy/akkupy/main/assets/favicon.ico
   features:
   - announce.dismiss
   - content.action.edit
