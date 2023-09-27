@@ -42,7 +42,7 @@ nav:
 
 theme:
   name: material
-  favicon: https://raw.githubusercontent.com/akkupy/akkupy/main/assets/favicon.png
+  favicon: https://docs.akkupy.me/assets/favicon/favicon-480x480.ico
   icon:
     admonition:
       note: fontawesome/solid/note-sticky
